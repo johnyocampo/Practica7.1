@@ -1,0 +1,51 @@
+{
+  "project_info": {
+    "project_id": "practica71-42e53",
+    "project_number": "548487707618",
+    "name": "Practica71"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548487707618:android:c5dab462703bde8d",
+        "client_id": "android:com.ocampojohny.practica71",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.ocampojohny.practica71"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "548487707618-rr7ln0267ftfumv66i5btkci4p4bbq4l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ocampojohny.practica71",
+            "certificate_hash": "84508DA659A62724562466310902D1A1A07C3421"
+          }
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/gainsboro"
+        android:layout_gravity="center|center_vertical">
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/Titutlo_principal"
+            android:textSize="30sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/usuario"
+            android:gravity="center"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/contrasenia"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/details"
+            android:textSize="20dp"
+            />
+        <Button
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/Iniciar_sesion"
+            android:id="@+id/Ingresar"
+           />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20sp" />
+
+        <Button
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/Registrarse"
+            android:id="@+id/btregistro"
+
+           />
+
+        <TextView
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/inicio_alterno"
+            android:textSize="20dp"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10sp" />
+
+            <Button android:id="@+id/id_sign_out_button"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:textSize="14sp"
+                android:text="@string/btnSignout"
+                android:textColor="@color/darkslategray"
+                android:background="@color/white"
+                android:textAllCaps="false"
+                android:layout_margin="4dp"
+                android:visibility="gone"
+                tools:visibility="visible"/>
+
+        <com.facebook.login.widget.LoginButton
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/login_button"/>
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/id_sign_in_button"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            tools:visibility="gone" />
+    </LinearLayout>
+
+
+</LinearLayout>
